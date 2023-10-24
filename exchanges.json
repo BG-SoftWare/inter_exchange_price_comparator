@@ -1,0 +1,16 @@
+{
+  "Binance": {
+    "delimiter": "",
+    "blacklist": [],
+    "case": "upper",
+    "price_endpoint": "https://api.binance.com/api/v3/klines",
+    "pairs_endpoint": "https://api.binance.com/api/v3/exchangeInfo"
+  },
+  "Gate": {
+    "delimiter": "_",
+    "blacklist": [],
+    "case": "upper",
+    "price_endpoint": "https://api.gateio.ws/api/v4/spot/candlesticks?={pair_name}&interval=1m",
+    "pairs_endpoint": "https://api.gateio.ws/api/v4/spot/currency_pairs"
+  }
+}
